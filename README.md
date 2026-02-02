@@ -67,14 +67,6 @@ Atualmente aprofundando conhecimentos em:
 
 ---
 
-## 📊 GitHub Stats
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=default" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&theme=default" height="160"/>
-</p>
-
----
-
 ## 📫 Contato
 <p>
   <a href="https://www.linkedin.com/in/rodrigoscharp/">
