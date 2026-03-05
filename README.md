@@ -1,7 +1,7 @@
 # 👋 Olá, eu sou o Rodrigo Scharp.
 
 💻 Desenvolvedor **Backend**  
-🚀 Java | Python | JavaScript  
+🚀 Java + Spring Boot  
 📍 Brasil  
 
 Atuo no desenvolvimento de sistemas backend, com foco em construção de aplicações bem estruturadas, integração de sistemas e evolução contínua de boas práticas. Sou um desenvolvedor em constante crescimento técnico, sempre buscando aprofundar conhecimentos e aplicar soluções eficientes em projetos reais.
@@ -10,8 +10,7 @@ Atuo no desenvolvimento de sistemas backend, com foco em construção de aplica�
 
 ## 🚀 Sobre mim
 - Desenvolvedor backend com experiência prática em projetos reais
-- Forte atuação com **Java** e ecossistema backend
-- Experiência com **Python** e **JavaScript** para APIs e integrações
+- Forte atuação com **Java** e ecossistema backend para APIs e integrações
 - Em constante ascensão técnica e aprendizado contínuo
 - Foco em arquitetura, código limpo e escalabilidade
 - Parte dos meus projetos mais relevantes estão em repositórios privados por envolverem sistemas corporativos
@@ -22,7 +21,6 @@ Atuo no desenvolvimento de sistemas backend, com foco em construção de aplica�
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/>
 </p>
 
 ---
