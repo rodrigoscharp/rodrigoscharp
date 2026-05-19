@@ -1,20 +1,18 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Hey%2C+I'm+Rodrigo+Scharp+%F0%9F%91%8B;Backend+Engineer+%7C+Brazil;Java+%2B+Spring+Boot;Next.js+%2B+TypeScript+%2B+Prisma;Building+systems+that+actually+matter" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Hey%2C+I'm+Rodrigo+Scharp+%F0%9F%91%8B;Backend+Engineer+%7C+Brazil;Java+21+%2B+Spring+Boot+3;Next.js+%2B+TypeScript;Finance+%C2%B7+AI+%C2%B7+Full-stack" alt="Typing SVG" />
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigoscharp/)
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rodrigosharp99@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rodrigosharp99@gmail.com)
 [![GitHub followers](https://img.shields.io/github/followers/rodrigoscharp?style=flat&label=followers&color=181717&logo=github)](https://github.com/rodrigoscharp)
 
 </div>
 
 ---
 
-Backend engineer from Brazil. I build production systems — from AI-powered tools that transcribe lectures to HR platforms serving NGOs. My core stack is **Java + Spring Boot**; I also ship full-stack when the job calls for it.
-
-I care about clean architecture, well-designed APIs, and code that reaches production.
+Backend engineer from Brazil. I build production systems — from a high-performance financial matching engine processing **>100k orders/s** to an AI voice assistant that runs entirely on your own server. My core stack is **Java + Spring Boot**; I also ship full-stack when the job calls for it.
 
 ---
 
@@ -24,28 +22,22 @@ I care about clean architecture, well-designed APIs, and code that reaches produ
 
 **Backend**
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" title="Java"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="48" title="Spring Boot"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="48" title="Node.js"/>
+[![Backend](https://skillicons.dev/icons?i=java,spring,nodejs&theme=dark)](https://skillicons.dev)
 
 **Full-stack**
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="48" title="Next.js"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" title="TypeScript"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" title="React"/>
+[![Fullstack](https://skillicons.dev/icons?i=nextjs,ts,react&theme=dark)](https://skillicons.dev)
 
 **Data**
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" title="PostgreSQL"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="48" title="MySQL"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="48" title="SQL Server"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" width="48" title="Prisma"/>
+[![Data](https://skillicons.dev/icons?i=postgres,mysql,redis,kafka&theme=dark)](https://skillicons.dev)
 
-**Infra & AI**
+**AI & LLM**
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48" title="Docker"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" title="Git"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" title="Linux"/>
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
+![LLaMA](https://img.shields.io/badge/LLaMA_3.1-0467DF?style=flat-square&logo=meta&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logoColor=white)
 
 </div>
 
@@ -53,13 +45,13 @@ I care about clean architecture, well-designed APIs, and code that reaches produ
 
 ## Featured Projects
 
-**[HelpNote IA](https://github.com/rodrigoscharp/HelpNote-IA)**  
-AI assistant that transcribes audio from lectures and courses, extracts key concepts, and automatically enriches your notes. Built to solve a real workflow problem for students and professionals.  
-`Java` `Spring Boot` `AI/NLP` `Audio Processing`
+**[Own-Jarvis](https://github.com/rodrigoscharp/Own-Jarvis)**  
+Privacy-first voice and text assistant that runs on your own server — no subscriptions, no data collection. Voice-activated with keyword detection, integrates with Spotify, Google Calendar, Gmail and GitHub. Powered by Groq LLaMA 3.1 with ElevenLabs TTS and a 3D animated particle orb interface.  
+`Next.js 14` `TypeScript` `Groq` `ElevenLabs` `Supabase` `Vercel`
 
-**[RH APAE Ubatuba](https://github.com/rodrigoscharp/RH-APAE)**  
-Complete HR management system built for APAE Ubatuba — an NGO that serves people with intellectual and multiple disabilities. Features RBAC authentication, LGPD-compliant employee records, department and job role management.  
-`Next.js 16` `TypeScript` `Prisma` `Neon PostgreSQL` `Vercel`
+**[Athena Matching Engine](https://github.com/rodrigoscharp/Athena-Matching-Engine)**  
+High-performance order matching engine for financial trading. Single-writer design using LMAX Disruptor achieves **>100k orders/s** throughput with **<10µs p50 latency**. Event sourcing + CQRS, hexagonal architecture, multi-protocol (REST, gRPC, WebSocket), full observability with Grafana dashboards.  
+`Java 21` `Spring Boot 3` `Kafka` `Redis` `PostgreSQL` `gRPC`
 
 ---
 
