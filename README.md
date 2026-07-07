@@ -57,7 +57,7 @@ Production-grade digital wallet REST API. Atomic transfers with double-entry led
 Privacy-first voice and text assistant that runs on your own server — no subscriptions, no data collection. Voice-activated with keyword detection, integrates with Spotify, Google Calendar, Gmail and GitHub. Powered by Groq LLaMA 3.1 with ElevenLabs TTS and a 3D animated particle orb interface.  
 ![](https://skillicons.dev/icons?i=nextjs,ts,react,vercel,supabase&theme=dark) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white) ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logoColor=white)
 
-**[HelpNote-IA](https://github.com/rodrigoscharp/HelpNote_-IA)** · [demo](https://help-note-ia.vercel.app)  
+**[HelpNote-IA](https://github.com/rodrigoscharp/HelpNote_-IA)**  
 AI-powered note-taking assistant for lectures and technical talks. Transcribes audio, extracts keywords, classifies topics, and auto-generates complementary explanations to turn raw notes into structured, reviewable content.  
 ![](https://skillicons.dev/icons?i=js,java,html,css&theme=dark)
 
