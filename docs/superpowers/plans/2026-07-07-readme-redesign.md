@@ -176,7 +176,7 @@ git commit -m "Expand Featured Projects to 5 entries with icon badges, fix BETO-
 Run: `grep -c "readme-typing-svg.demolab.com" README.md` — expected `1`
 Run: `grep -c "github-readme-stats.vercel.app" README.md` — expected `2` (Stats + Top Langs)
 Run: `grep -c "streak-stats.demolab.com" README.md` — expected `1`
-Run: `grep -c "github-snake" README.md` — expected `2` (dark + light `<source>` tags)
+Run: `grep -c "github-snake" README.md` — expected `3` (dark `<source>`, light `<source>`, and the `<img>` fallback tag for renderers without `<picture>`/`<source>` support — correction: an earlier version of this plan said `2` and omitted the fallback `<img>`, which caused an implementer to wrongly delete it; do not remove that line)
 
 - [ ] **Step 2: Confirm section order**
 
