@@ -12,7 +12,7 @@
 
 ---
 
-Backend engineer from Brazil. I build production systems — from a high-performance financial matching engine processing **>100k orders/s** to an AI voice assistant that runs entirely on your own server. My core stack is **Java + Spring Boot**; I also ship full-stack when the job calls for it.
+Software engineer from Brazil. I build production systems across fintech, banking and AI — from a matching engine processing **>100k orders/s** to a digital wallet with double-entry ledger and an AI assistant that runs entirely on your own server. My core stack is **Java + Spring Boot**; I also ship full-stack when the job calls for it.
 
 ---
 
