@@ -15,11 +15,22 @@
 
 ### 👋 About me
 
-Software engineer from Brazil building production systems across **fintech, banking and AI** — from a matching engine processing **>100k orders/s** to a digital wallet with a double-entry ledger and an AI assistant that runs entirely on your own server. My core stack is **Java + Spring Boot**; I ship full-stack when the job calls for it.
+Software engineer from Brazil focused on **backend and distributed systems** for high-stakes domains — **fintech, banking and AI**. I care about the hard parts: correctness under concurrency, low-latency throughput, resilient architecture, and code that holds up in production rather than just in a demo. My core stack is **Java + Spring Boot**, and I go full-stack with **Next.js + TypeScript** when a product needs it end to end.
 
 <br/>
 
-### 🛠️ Tech Stack
+### 🎯 What I do best
+
+- **High-performance systems** — single-writer designs, LMAX Disruptor, low-latency processing (**>100k orders/s at <10µs p50**), and performance-conscious data paths.
+- **Financial engineering** — double-entry ledgers, order matching engines, atomic transfers with pessimistic locking, idempotency, and money-safe correctness.
+- **Distributed architecture** — event sourcing, CQRS, hexagonal architecture, and multi-protocol services (REST · gRPC · WebSocket).
+- **Resilience & reliability** — retries with backoff, dead-letter queues, rate limiting, and integration tests against real infra (Testcontainers, no mocks).
+- **AI & LLM integration** — voice/text assistants powered by Groq LLaMA and ElevenLabs, built privacy-first to run on your own server.
+- **Observability** — Grafana dashboards and metrics baked in from day one, not bolted on later.
+
+<br/>
+
+### 🧰 Tech I work with
 
 <div align="center">
 
@@ -33,8 +44,8 @@ Software engineer from Brazil building production systems across **fintech, bank
 <td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs,ts,react&theme=dark" alt="Full-stack" /></a></td>
 </tr>
 <tr>
-<td align="center"><b>Data</b></td>
-<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,redis,kafka&theme=dark" alt="Data" /></a></td>
+<td align="center"><b>Data &amp; Infra</b></td>
+<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,redis,kafka,docker&theme=dark" alt="Data and Infra" /></a></td>
 </tr>
 <tr>
 <td align="center"><b>AI &amp; LLM</b></td>
@@ -51,46 +62,12 @@ Software engineer from Brazil building production systems across **fintech, bank
 
 <br/>
 
-### 🚀 Featured Projects
-
-**[⚡ Athena Matching Engine](https://github.com/rodrigoscharp/Athena-Matching-Engine)**  
-High-performance order matching engine for financial trading. Single-writer design using LMAX Disruptor achieves **>100k orders/s** throughput with **<10µs p50 latency**. Event sourcing + CQRS, hexagonal architecture, multi-protocol (REST, gRPC, WebSocket), full observability with Grafana dashboards.  
-![](https://skillicons.dev/icons?i=java,spring,kafka,redis,postgres,docker&theme=dark) ![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=grpc&logoColor=white)
-
-**[💳 WalletCore](https://github.com/rodrigoscharp/WalletCore)**  
-Production-grade digital wallet REST API. Atomic transfers with double-entry ledger and pessimistic locking, JWT auth with rotating refresh tokens, exponential retry + dead-letter queue for resilience, idempotency keys, rate limiting, and Testcontainers-based integration tests (real Postgres + RabbitMQ, no mocks).  
-![](https://skillicons.dev/icons?i=java,spring,postgres,redis,docker&theme=dark) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-
-**[🤖 BETO-IA](https://github.com/rodrigoscharp/BETO-IA)**  
-Privacy-first voice and text assistant that runs on your own server — no subscriptions, no data collection. Voice-activated with keyword detection, integrates with Spotify, Google Calendar, Gmail and GitHub. Powered by Groq LLaMA 3.1 with ElevenLabs TTS and a 3D animated particle orb interface.  
-![](https://skillicons.dev/icons?i=nextjs,ts,react,vercel,supabase&theme=dark) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white) ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logoColor=white)
-
-**[📝 HelpNote-IA](https://github.com/rodrigoscharp/HelpNote_-IA)**  
-AI-powered note-taking assistant for lectures and technical talks. Transcribes audio, extracts keywords, classifies topics, and auto-generates complementary explanations to turn raw notes into structured, reviewable content.  
-![](https://skillicons.dev/icons?i=js,java,html,css&theme=dark)
-
-**[🏦 internet-banking-java](https://github.com/rodrigoscharp/internet-banking-java)**  
-Internet banking REST API with Spring Security-based authentication, JPA persistence and validation layer — core account and transaction operations over a relational MySQL backend.  
-![](https://skillicons.dev/icons?i=java,spring,mysql,html,css,js&theme=dark)
-
-<br/>
-
-### 📊 GitHub Stats
-
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=rodrigoscharp&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigoscharp&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top languages" />
+<i>📌 My featured work is pinned below.</i>
 
 <br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=rodrigoscharp&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
-<div align="center">
+<br/>
 
 [![Let's connect](https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigoscharp/)
 
