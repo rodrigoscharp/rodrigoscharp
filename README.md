@@ -51,14 +51,14 @@ National recognition for innovation in public administration and technology-driv
 
 <br/>
 
-### 🎯 What I do best
+### 🎯 What I build best
 
-- **High-performance systems** — single-writer designs, LMAX Disruptor, low-latency processing (**>100k orders/s at <10µs p50**), and performance-conscious data paths.
-- **Financial engineering** — double-entry ledgers, order matching engines, atomic transfers with pessimistic locking, idempotency, and money-safe correctness.
-- **Distributed architecture** — event sourcing, CQRS, hexagonal architecture, and multi-protocol services (REST · gRPC · WebSocket).
-- **Resilience & reliability** — retries with backoff, dead-letter queues, rate limiting, and integration tests against real infra (Testcontainers, no mocks).
-- **AI & LLM integration** — voice/text assistants powered by Groq LLaMA and ElevenLabs, built privacy-first to run on your own server.
-- **Observability** — Grafana dashboards and metrics baked in from day one, not bolted on later.
+- **Systems at public scale** — 6+ government systems in production, serving 100,000+ citizens.
+- **Financial engineering** — double-entry ledgers, order matching (**100k+ orders/s, sub-100µs p99**), atomic transfers with pessimistic locking, and idempotency.
+- **Distributed architecture** — REST · gRPC · WebSocket services, event-driven with RabbitMQ and Kafka, clean architecture.
+- **Resilience & reliability** — retries with backoff, dead-letter queues, rate limiting, and integration tests with Testcontainers.
+- **AI & LLM integration** — voice and text assistants powered by Groq LLaMA and ElevenLabs, self-hosted and privacy-first.
+- **Cloud & DevOps** — AWS (ECS, ALB, CloudFront, API Gateway, Lambda), Docker, and CI/CD pipelines.
 
 <br/>
 
