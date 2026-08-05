@@ -88,7 +88,7 @@ National recognition for innovation in public administration and technology-driv
 </tr>
 <tr>
 <td align="center"><b>Data &amp; Infra</b></td>
-<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,redis,kafka,docker&theme=dark" alt="Data and Infra" /></a></td>
+<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,redis,kafka,docker,aws&theme=dark" alt="Data and Infra" /></a></td>
 </tr>
 <tr>
 <td align="center"><b>AI &amp; LLM</b></td>
