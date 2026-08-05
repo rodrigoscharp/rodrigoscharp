@@ -62,6 +62,17 @@ National recognition for innovation in public administration and technology-driv
 
 <br/>
 
+### 🚀 Featured Projects
+
+| Project | What it is | Stack |
+|:---|:---|:---|
+| **[WalletCore](https://github.com/rodrigoscharp/WalletCore)** | Digital wallet API — double-entry ledger, JWT auth, pessimistic locking for concurrency safety, async notifications | Java 21 · Spring Boot 3 · PostgreSQL · RabbitMQ · Redis |
+| **[Athena Matching Engine](https://github.com/rodrigoscharp/Athena-Matching-Engine)** | Order matching engine for financial markets — 100k+ orders/s, sub-100µs p99, lock-free concurrency design | Java 21 · Spring Boot · Kafka · Redis · gRPC |
+| **[BETO IA](https://github.com/rodrigoscharp/BETO-IA)** | Self-hosted voice AI assistant — Spotify, Google Calendar and GitHub integrations, no third-party subscriptions | Next.js 14 · TypeScript · Groq · ElevenLabs · Supabase |
+| **[HelpNote IA](https://github.com/rodrigoscharp/HelpNote_-IA)** | Transcribes lecture and event audio, extracts keywords, and generates enriched summaries | Java · Spring Boot · PostgreSQL · LLM |
+
+<br/>
+
 ### 🧰 Tech I work with
 
 <div align="center">
