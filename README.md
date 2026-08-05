@@ -24,6 +24,33 @@ Outside of engineering, I create content on programming, dev life and career as 
 
 <br/>
 
+### 🏆 Awards & Recognition
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+🏆 <b>Smart City Award</b>
+
+National recognition for digital transformation and smart city initiatives at Prefeitura de Ubatuba.
+
+</td>
+<td width="50%" valign="top">
+
+🏆 <b>Cidade Inovadora Award</b>
+
+National recognition for innovation in public administration and technology-driven municipal governance.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
 ### 🎯 What I do best
 
 - **High-performance systems** — single-writer designs, LMAX Disruptor, low-latency processing (**>100k orders/s at <10µs p50**), and performance-conscious data paths.
