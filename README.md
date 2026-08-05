@@ -16,7 +16,11 @@
 
 ### 👋 About me
 
-Software engineer from Brazil focused on **backend and distributed systems** for high-stakes domains — **fintech, banking and AI**. I care about the hard parts: correctness under concurrency, low-latency throughput, resilient architecture, and code that holds up in production rather than just in a demo. My core stack is **Java + Spring Boot**, and I go full-stack with **Next.js + TypeScript** when a product needs it end to end.
+Software engineer from Brazil with **4+ years** building production systems across government, fintech and food-tech. I lead the technology team at the **Ubatuba city government**, where we've shipped **6+ systems serving 100,000+ citizens** — work recognized with **two national awards**. I also founded **MUNO**, a food-tech startup, where I built the backend and cloud infrastructure end to end.
+
+My core stack is **Java 21 + Spring Boot 3**, and I go full-stack with **Next.js + TypeScript** when a product needs it. I care about the hard parts: correctness under concurrency, resilient architecture, and code that holds up in production rather than just in a demo.
+
+Outside of engineering, I create content on programming, dev life and career as **[@rodrigoscharp](https://instagram.com/rodrigoscharp)** on Instagram.
 
 <br/>
 
