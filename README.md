@@ -1,112 +1,56 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Rodrigo Scharp — Software Engineer, Ubatuba, Brazil. 4+ years building software. 6+ systems in production. 100,000+ citizens served. 2 national awards. Matching engine at 100K+ orders/sec.">
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Hey%2C+I'm+Rodrigo+Scharp+%F0%9F%91%8B;Software+Engineer+%C2%B7+Brazil;Java+21+%2B+Spring+Boot+3;Systems+serving+100%2C000%2B+citizens;2%C3%97+National+Award+Winner" alt="Typing SVG" />
+<br>
 
-<br/>
-<br/>
+<p>
+  <a href="https://www.linkedin.com/in/rodrigoscharp/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-linkedin-dark.svg"><img src="assets/chip-linkedin-light.svg" height="40" alt="LinkedIn"></picture></a>
+  <a href="https://instagram.com/rodrigoscharp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-instagram-dark.svg"><img src="assets/chip-instagram-light.svg" height="40" alt="Instagram"></picture></a>
+  <a href="mailto:rodrigosharp99@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-email-dark.svg"><img src="assets/chip-email-light.svg" height="40" alt="Email"></picture></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigoscharp/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rodrigosharp99@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoscharp)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rodrigoscharp)
+### About
 
-</div>
+I build production systems for government, fintech and food-tech — the kind where a lost transaction is a real problem for a real person.
 
----
+I lead the technology team at the **Ubatuba city government**, where we've shipped **6+ systems now serving more than 100,000 citizens**, work recognized with **two national awards**. I also founded **MUNO**, a food-tech startup, where I built the backend and cloud infrastructure end to end.
 
-### 👋 About me
+My core stack is **Java 21 + Spring Boot 3**, and I go full-stack with **Next.js + TypeScript** when a product needs it. I care about the hard parts: correctness under concurrency, resilient architecture, and code that holds up in production rather than in a demo.
 
-Software engineer from Brazil with **4+ years** building production systems across government, fintech and food-tech. I lead the technology team at the **Ubatuba city government**, where we've shipped **6+ systems serving 100,000+ citizens** — work recognized with **two national awards**. I also founded **MUNO**, a food-tech startup, where I built the backend and cloud infrastructure end to end.
+Outside of engineering, I create content on programming, dev life and career as **[@rodrigoscharp](https://instagram.com/rodrigoscharp)**.
 
-My core stack is **Java 21 + Spring Boot 3**, and I go full-stack with **Next.js + TypeScript** when a product needs it. I care about the hard parts: correctness under concurrency, resilient architecture, and code that holds up in production rather than just in a demo.
+### Awards
 
-Outside of engineering, I create content on programming, dev life and career as **[@rodrigoscharp](https://instagram.com/rodrigoscharp)** on Instagram.
+- **Smart City Award** — national recognition for digital transformation and smart city initiatives at Prefeitura de Ubatuba.
+- **Cidade Inovadora Award** — national recognition for innovation in public administration and technology-driven municipal governance.
 
-<br/>
+### What I build best
 
-### 🏆 Awards & Recognition
+- **Financial engineering** — double-entry ledgers, order matching, atomic transfers, idempotency.
+- **Distributed architecture** — REST, gRPC and WebSocket services, event-driven with RabbitMQ and Kafka, clean architecture.
+- **Resilience** — retries with backoff, dead-letter queues, rate limiting, integration tests with Testcontainers.
+- **AI and LLM integration** — voice and text assistants on Groq LLaMA and ElevenLabs, self-hosted and privacy-first.
+- **Cloud and DevOps** — AWS (ECS, ALB, CloudFront, API Gateway, Lambda), Docker, CI/CD pipelines.
 
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-🏆 <b>Smart City Award</b>
-
-National recognition for digital transformation and smart city initiatives at Prefeitura de Ubatuba.
-
-</td>
-<td width="50%" valign="top">
-
-🏆 <b>Cidade Inovadora Award</b>
-
-National recognition for innovation in public administration and technology-driven municipal governance.
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-### 🎯 What I build best
-
-- **Financial engineering** — double-entry ledgers, order matching, atomic transfers, and idempotency.
-- **Distributed architecture** — REST · gRPC · WebSocket services, event-driven with RabbitMQ and Kafka, clean architecture.
-- **Resilience & reliability** — retries with backoff, dead-letter queues, rate limiting, and integration tests with Testcontainers.
-- **AI & LLM integration** — voice and text assistants powered by Groq LLaMA and ElevenLabs, self-hosted and privacy-first.
-- **Cloud & DevOps** — AWS (ECS, ALB, CloudFront, API Gateway, Lambda), Docker, and CI/CD pipelines.
-
-<br/>
-
-### 🚀 Featured Projects
+### Featured projects
 
 | Project | What it is | Stack |
 |:---|:---|:---|
 | **[WalletCore](https://github.com/rodrigoscharp/WalletCore)** | Digital wallet API — double-entry ledger, JWT auth, pessimistic locking for concurrency safety, async notifications | Java 21 · Spring Boot 3 · PostgreSQL · RabbitMQ · Redis |
 | **[Athena Matching Engine](https://github.com/rodrigoscharp/Athena-Matching-Engine)** | Order matching engine for financial markets — 100k+ orders/s, sub-100µs p99, lock-free concurrency design | Java 21 · Spring Boot · Kafka · Redis · gRPC |
 | **[BETO IA](https://github.com/rodrigoscharp/BETO-IA)** | Self-hosted voice AI assistant — Spotify, Google Calendar and GitHub integrations, no third-party subscriptions | Next.js 14 · TypeScript · Groq · ElevenLabs · Supabase |
-| **[HelpNote IA](https://github.com/rodrigoscharp/HelpNote_-IA)** | Transcribes lecture and event audio, extracts keywords, and generates enriched summaries | Java · Spring Boot · PostgreSQL · LLM |
+| **[HelpNote IA](https://github.com/rodrigoscharp/HelpNote_-IA)** | Transcribes lecture and event audio, extracts keywords, generates enriched summaries | Java · Spring Boot · PostgreSQL · LLM |
 
-<br/>
+<br>
 
-### 🧰 Tech I work with
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" width="100%" alt="Stack. Backend: Java 21, Spring Boot 3, Node.js. Full-stack: Next.js, TypeScript, React. Data: PostgreSQL, MySQL, Redis, Kafka, RabbitMQ. Cloud: AWS, Docker, GitHub Actions. AI: Groq, LLaMA 3.1, OpenAI, ElevenLabs.">
+</picture>
 
-<div align="center">
+---
 
-<table>
-<tr>
-<td align="center"><b>Backend</b></td>
-<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,spring,nodejs&theme=dark" alt="Backend" /></a></td>
-</tr>
-<tr>
-<td align="center"><b>Full-stack</b></td>
-<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs,ts,react&theme=dark" alt="Full-stack" /></a></td>
-</tr>
-<tr>
-<td align="center"><b>Data &amp; Infra</b></td>
-<td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,redis,kafka,docker,aws&theme=dark" alt="Data and Infra" /></a></td>
-</tr>
-<tr>
-<td align="center"><b>AI &amp; LLM</b></td>
-<td>
-<img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" alt="Groq" />
-<img src="https://img.shields.io/badge/LLaMA_3.1-0467DF?style=flat-square&logo=meta&logoColor=white" alt="LLaMA" />
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-<img src="https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logoColor=white" alt="ElevenLabs" />
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-[![Let's connect](https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigoscharp/)
-[![Follow my content](https://img.shields.io/badge/Follow_my_content-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoscharp)
-
-</div>
+Open to conversations about backend architecture, financial systems and public-sector technology.
+[LinkedIn](https://www.linkedin.com/in/rodrigoscharp/) · [Instagram](https://instagram.com/rodrigoscharp) · [rodrigosharp99@gmail.com](mailto:rodrigosharp99@gmail.com)
