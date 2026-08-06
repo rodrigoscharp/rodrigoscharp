@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Rodrigo Scharp — Software Engineer, Ubatuba, Brazil. 4+ years building software. Backend, distributed systems, financial engineering.">
+  <img src="assets/header-light.svg" width="100%" alt="Rodrigo Scharp — Software Engineer, São Paulo, Brazil. 4+ years building software. Backend, distributed systems, financial engineering.">
 </picture>
 
 <br>
