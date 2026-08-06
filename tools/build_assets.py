@@ -328,21 +328,33 @@ HERO_ENTRIES = [
 # reduced-motion — the plate simply appears complete instead of blank.
 #
 # (start seconds, seconds per character) for each line of the head, in order.
-T_HEAD_L = (0.00, 0.022)
-T_HEAD_R = (0.18, 0.022)
-T_NAME = (0.50, 0.052)
-T_SUB = (1.32, 0.017)
-T_LATE = 2.00
+# Every start is offset past LEAD so that nothing is mid-animation at time
+# zero — see the note on the resting state below.
+LEAD = 0.02
+T_HEAD_L = (LEAD, 0.022)
+T_HEAD_R = (LEAD + 0.18, 0.022)
+T_NAME = (LEAD + 0.50, 0.052)
+T_SUB = (LEAD + 1.32, 0.017)
 
+# The head types itself out, top line first, the way the form would come off a
+# printer. Only the head moves; the rules, bars, entry row and footer are
+# always drawn, so the plate is legible from the first frame.
+#
+# `backwards` is load-bearing and its cost is known. Hiding a glyph before its
+# turn is only possible by filling backwards, and an SVG timeline that is
+# frozen at zero — a directly-opened .svg, a throttled background tab, a
+# screenshot pipeline — therefore renders the head blank. Dropping the fill
+# mode makes those cases safe but deletes the effect: every glyph would sit
+# visible until the 10ms it blinks. Typing wins for the head; everything below
+# it (rules, bars, the entry row, the footer) is static, so a frozen renderer
+# still gets a plate with its structure and its number intact.
 HERO_MOTION = """<style>
 @keyframes plate-type { from { opacity: 0 } to { opacity: 1 } }
-@keyframes plate-fade { from { opacity: 0 } to { opacity: 1 } }
 __KEYS__
 .tp { animation: plate-type .01s steps(1, end) backwards }
-.late { animation: plate-fade .55s ease __LATE__s backwards }
 .caret { opacity: 0 }
 @media (prefers-reduced-motion: reduce) {
-  .tp, .late, .caret { animation: none !important }
+  .tp, .caret { animation: none !important }
 }
 </style>"""
 
@@ -396,7 +408,7 @@ def hero(t: Theme, display: Face, mono: Face, mono_md: Face, mono_sb: Face) -> s
         '<g filter="url(#ink)">' + "".join(glyphs) + "</g>",
         head_el,
     ]
-    body += typed(mono, "Software Engineer · Ubatuba, Brazil", 24, PAD, 244,
+    body += typed(mono, "Software Engineer · São Paulo, Brazil", 24, PAD, 244,
                   t.muted, *T_SUB, tracking=2.0)[0]
     body += [
         rule(PAD, rows_top, W - PAD, t.rule),
@@ -407,32 +419,26 @@ def hero(t: Theme, display: Face, mono: Face, mono_md: Face, mono_sb: Face) -> s
         baseline = rows_top + i * row_h + 36
         lw = mono_md.width(label, 23, 3.4)
         vw = mono_sb.width(value, 32, 0.5)
-        body.append(
-            '<g class="late">'
-            + text(mono_md, label, 23, PAD, baseline, t.muted, tracking=3.4)
-            + leader(PAD + lw + 18, baseline - 8, W - PAD - vw - 18, t.rule)
-            + text(mono_sb, value, 32, W - PAD, baseline,
-                   t.red if accent else t.ink, tracking=0.5, anchor="end")
-            + "</g>"
-        )
+        body += [
+            text(mono_md, label, 23, PAD, baseline, t.muted, tracking=3.4),
+            leader(PAD + lw + 18, baseline - 8, W - PAD - vw - 18, t.rule),
+            text(mono_sb, value, 32, W - PAD, baseline,
+                 t.red if accent else t.ink, tracking=0.5, anchor="end"),
+        ]
 
     # Footer band — mirrors the header.
     foot_top = rows_top + row_h * len(HERO_ENTRIES)
     body += [
         rule(PAD, foot_top, W - PAD, t.rule),
-        '<g class="late">'
-        + edge_row(mono_md, "BACKEND · DISTRIBUTED SYSTEMS · FINANCIAL ENGINEERING",
-                   "@RODRIGOSCHARP", 18, foot_top + 30, t.muted, 3.2, PAD, W)
-        + "</g>",
+        edge_row(mono_md, "BACKEND · DISTRIBUTED SYSTEMS · FINANCIAL ENGINEERING",
+                 "@RODRIGOSCHARP", 18, foot_top + 30, t.muted, 3.2, PAD, W),
         f'<rect x="0.5" y="0.5" width="{W - 1}" height="{height - 1}" '
         f'fill="none" stroke="{t.edge}"/>',
     ]
 
-    body.insert(1, HERO_MOTION
-                .replace("__KEYS__", head_keys)
-                .replace("__LATE__", f"{T_LATE:g}"))
+    body.insert(1, HERO_MOTION.replace("__KEYS__", head_keys))
 
-    alt = ("Rodrigo Scharp — Software Engineer, Ubatuba, Brazil. "
+    alt = ("Rodrigo Scharp — Software Engineer, São Paulo, Brazil. "
            + " ".join(f"{lbl.title()}: {val}." for lbl, val, _ in HERO_ENTRIES))
     return svg(W, height, alt, body)
 
