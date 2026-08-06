@@ -13,20 +13,29 @@
 
 ### About
 
-Backend engineer working on government, fintech and food-tech systems — where a lost transaction is a real problem for a real person.
+Systems where a lost transaction is a real problem for a real person.
 
-- Tech lead at the **Ubatuba city government** — 6+ systems, 100k+ citizens served, two national awards (Smart City, Cidade Inovadora).
-- Founder of **MUNO** (food-tech) — backend and cloud infrastructure, end to end.
-- **Java 21 + Spring Boot 3** at the core, **Next.js + TypeScript** when the product asks for it.
-- Content on programming and dev career at **[@rodrigoscharp](https://instagram.com/rodrigoscharp)**.
+🏛️ &nbsp;**Ubatuba city government** — tech lead
+&nbsp;&nbsp;&nbsp;&nbsp;`6+ systems shipped` &nbsp;`100k+ citizens served` &nbsp;`2 national awards`
+
+⚡ &nbsp;**Athena Matching Engine** — order matching for financial markets
+&nbsp;&nbsp;&nbsp;&nbsp;`100k orders/s` &nbsp;`p99 < 100µs` &nbsp;`lock-free`
+
+🍔 &nbsp;**MUNO** — founder, food-tech
+&nbsp;&nbsp;&nbsp;&nbsp;`backend + cloud infra, end to end`
+
+☕ &nbsp;**Core stack** — 4+ years in production
+&nbsp;&nbsp;&nbsp;&nbsp;`Java 21` &nbsp;`Spring Boot 3` &nbsp;`Next.js + TS when the product asks`
 
 ### What I build
 
-- **Financial engineering** — double-entry ledgers, order matching, atomic transfers, idempotency.
-- **Distributed systems** — REST, gRPC and WebSocket, event-driven with Kafka and RabbitMQ.
-- **Resilience** — retries with backoff, dead-letter queues, rate limiting, Testcontainers.
-- **AI integration** — voice and text assistants on Groq LLaMA and ElevenLabs, self-hosted.
-- **Cloud and DevOps** — AWS (ECS, ALB, CloudFront, API Gateway, Lambda), Docker, CI/CD.
+**Financial engineering** &nbsp;`double-entry ledgers` `order matching` `atomic transfers` `idempotency`
+
+**Distributed systems** &nbsp;`REST` `gRPC` `WebSocket` `Kafka` `RabbitMQ`
+
+**Resilience** &nbsp;`retry + backoff` `dead-letter queues` `rate limiting` `Testcontainers`
+
+**AI integration** &nbsp;`Groq LLaMA` `ElevenLabs` `self-hosted` `privacy-first`
 
 <br>
 
