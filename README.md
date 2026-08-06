@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Rodrigo Scharp — Software Engineer, Ubatuba, Brazil. 4+ years building software. 6+ systems in production. 100,000+ citizens served. 2 national awards. Matching engine at 100K+ orders/sec.">
+  <img src="assets/header-light.svg" width="100%" alt="Rodrigo Scharp — Software Engineer, Ubatuba, Brazil. 4+ years building software. Backend, distributed systems, financial engineering.">
 </picture>
 
 <br>
