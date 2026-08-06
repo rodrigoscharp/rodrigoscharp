@@ -598,7 +598,7 @@ done
 
 Expected: `1` for every row, with two deliberate exceptions:
 
-- `100k+ orders/s, sub-100µs p99` is `2` — Task 4 puts it in the capabilities bullet and Task 5 puts it in the Athena project row. Both are required; the two must stay byte-identical, which is the point of checking it here.
+- `100k+ orders/s, sub-100µs p99` is `1` — the Athena project row is its only home. The final review removed the duplicate from the capabilities bullet as redundant with the projects table.
 - `instagram.com/rodrigoscharp` is `3` — header badge, About prose link, CTA badge.
 
 - [ ] **Step 3: Verify no job title appears as a heading or in the header**

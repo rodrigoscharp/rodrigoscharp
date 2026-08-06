@@ -53,8 +53,7 @@ National recognition for innovation in public administration and technology-driv
 
 ### 🎯 What I build best
 
-- **Systems at public scale** — 6+ government systems in production, serving 100,000+ citizens.
-- **Financial engineering** — double-entry ledgers, order matching (**100k+ orders/s, sub-100µs p99**), atomic transfers with pessimistic locking, and idempotency.
+- **Financial engineering** — double-entry ledgers, order matching, atomic transfers, and idempotency.
 - **Distributed architecture** — REST · gRPC · WebSocket services, event-driven with RabbitMQ and Kafka, clean architecture.
 - **Resilience & reliability** — retries with backoff, dead-letter queues, rate limiting, and integration tests with Testcontainers.
 - **AI & LLM integration** — voice and text assistants powered by Groq LLaMA and ElevenLabs, self-hosted and privacy-first.
