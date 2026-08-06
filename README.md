@@ -107,11 +107,7 @@ National recognition for innovation in public administration and technology-driv
 
 <div align="center">
 
-<i>📌 My featured work is pinned below.</i>
-
-<br/>
-<br/>
-
 [![Let's connect](https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigoscharp/)
+[![Follow my content](https://img.shields.io/badge/Follow_my_content-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoscharp)
 
 </div>
