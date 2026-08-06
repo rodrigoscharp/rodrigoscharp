@@ -13,35 +13,20 @@
 
 ### About
 
-I build production systems for government, fintech and food-tech — the kind where a lost transaction is a real problem for a real person.
+Backend engineer working on government, fintech and food-tech systems — where a lost transaction is a real problem for a real person.
 
-I lead the technology team at the **Ubatuba city government**, where we've shipped **6+ systems now serving more than 100,000 citizens**, work recognized with **two national awards**. I also founded **MUNO**, a food-tech startup, where I built the backend and cloud infrastructure end to end.
+- Tech lead at the **Ubatuba city government** — 6+ systems, 100k+ citizens served, two national awards (Smart City, Cidade Inovadora).
+- Founder of **MUNO** (food-tech) — backend and cloud infrastructure, end to end.
+- **Java 21 + Spring Boot 3** at the core, **Next.js + TypeScript** when the product asks for it.
+- Content on programming and dev career at **[@rodrigoscharp](https://instagram.com/rodrigoscharp)**.
 
-My core stack is **Java 21 + Spring Boot 3**, and I go full-stack with **Next.js + TypeScript** when a product needs it. I care about the hard parts: correctness under concurrency, resilient architecture, and code that holds up in production rather than in a demo.
-
-Outside of engineering, I create content on programming, dev life and career as **[@rodrigoscharp](https://instagram.com/rodrigoscharp)**.
-
-### Awards
-
-- **Smart City Award** — national recognition for digital transformation and smart city initiatives at Prefeitura de Ubatuba.
-- **Cidade Inovadora Award** — national recognition for innovation in public administration and technology-driven municipal governance.
-
-### What I build best
+### What I build
 
 - **Financial engineering** — double-entry ledgers, order matching, atomic transfers, idempotency.
-- **Distributed architecture** — REST, gRPC and WebSocket services, event-driven with RabbitMQ and Kafka, clean architecture.
-- **Resilience** — retries with backoff, dead-letter queues, rate limiting, integration tests with Testcontainers.
-- **AI and LLM integration** — voice and text assistants on Groq LLaMA and ElevenLabs, self-hosted and privacy-first.
-- **Cloud and DevOps** — AWS (ECS, ALB, CloudFront, API Gateway, Lambda), Docker, CI/CD pipelines.
-
-### Featured projects
-
-| Project | What it is | Stack |
-|:---|:---|:---|
-| **[WalletCore](https://github.com/rodrigoscharp/WalletCore)** | Digital wallet API — double-entry ledger, JWT auth, pessimistic locking for concurrency safety, async notifications | Java 21 · Spring Boot 3 · PostgreSQL · RabbitMQ · Redis |
-| **[Athena Matching Engine](https://github.com/rodrigoscharp/Athena-Matching-Engine)** | Order matching engine for financial markets — 100k+ orders/s, sub-100µs p99, lock-free concurrency design | Java 21 · Spring Boot · Kafka · Redis · gRPC |
-| **[BETO IA](https://github.com/rodrigoscharp/BETO-IA)** | Self-hosted voice AI assistant — Spotify, Google Calendar and GitHub integrations, no third-party subscriptions | Next.js 14 · TypeScript · Groq · ElevenLabs · Supabase |
-| **[HelpNote IA](https://github.com/rodrigoscharp/HelpNote_-IA)** | Transcribes lecture and event audio, extracts keywords, generates enriched summaries | Java · Spring Boot · PostgreSQL · LLM |
+- **Distributed systems** — REST, gRPC and WebSocket, event-driven with Kafka and RabbitMQ.
+- **Resilience** — retries with backoff, dead-letter queues, rate limiting, Testcontainers.
+- **AI integration** — voice and text assistants on Groq LLaMA and ElevenLabs, self-hosted.
+- **Cloud and DevOps** — AWS (ECS, ALB, CloudFront, API Gateway, Lambda), Docker, CI/CD.
 
 <br>
 
@@ -52,5 +37,5 @@ Outside of engineering, I create content on programming, dev life and career as 
 
 ---
 
-Open to conversations about backend architecture, financial systems and public-sector technology.
+Open to talk about backend, financial systems and public-sector tech.
 [LinkedIn](https://www.linkedin.com/in/rodrigoscharp/) · [Instagram](https://instagram.com/rodrigoscharp) · [rodrigosharp99@gmail.com](mailto:rodrigosharp99@gmail.com)
