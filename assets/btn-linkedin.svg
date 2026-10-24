@@ -1,0 +1,19 @@
+<svg viewBox="0 0 170 56" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" role="img" aria-label="LinkedIn">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2230"/>
+      <stop offset="1" stop-color="#10141c"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-15%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect x="3" y="3" width="164" height="50" rx="14" fill="url(#bg)" stroke="#3d4452" stroke-width="1.5" filter="url(#sh)">
+    <animate attributeName="stroke" values="#3d4452;#0a66c2;#3d4452" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="18" y="16" width="24" height="24" rx="6" fill="#0a66c2"/>
+  <circle cx="24.5" cy="23" r="2.2" fill="#ffffff"/>
+  <rect x="22.6" y="26.5" width="3.8" height="9" fill="#ffffff"/>
+  <path d="M29 26.5 h3.6 v1.6 q1.2 -1.9 3.4 -1.9 q3.6 0 3.6 4.2 v5.1 h-3.8 v-4.6 q0 -1.9 -1.6 -1.9 q-1.6 0 -1.6 2 v4.5 h-3.6 z" fill="#ffffff"/>
+  <text x="58" y="34" font-size="15" fill="#c9d1d9">LinkedIn</text>
+</svg>
