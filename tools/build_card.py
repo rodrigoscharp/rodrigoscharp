@@ -40,6 +40,7 @@ TRAITS = [
 PORTRAIT_ROWS = 120     # fewer rows = chunkier pixels
 PORTRAIT_COLORS = 48
 PORTRAIT_OUTLINE = False
+PORTRAIT_FADE = 0.12     # share of the portrait height that fades out at the bottom
 # -------------------------------------------------------------------------
 
 VW, VH = 900, 476
@@ -133,8 +134,12 @@ def portrait(x: float, y: float, h: float) -> tuple[str, list[str], float]:
     css = [f".p{i}{{opacity:0;animation:show {av.STEP_DUR}s {i * av.STEP_DUR:.2f}s}}" for i in range(last)]
     css.append(f".p{last}{{animation:hide {last * av.STEP_DUR:.2f}s}}")
     svg = (
-        f'<ellipse cx="{x + w / 2:g}" cy="{y + h - 2:g}" rx="{w * 0.55:g}" ry="7" fill="#000" opacity=".6"/>'
-        f'<g transform="translate({x:g} {y:g})">{"".join(layers)}</g>'
+        # the photo cuts the legs off: fade the last stretch into the background
+        '<linearGradient id="pfadeg" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="{1 - PORTRAIT_FADE:.3f}" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>'
+        f'<mask id="pfade" maskUnits="userSpaceOnUse" x="{x - 20:g}" y="{y - 20:g}" width="{w + 40:g}" height="{h + 20:g}">'
+        f'<rect x="{x - 20:g}" y="{y - 20:g}" width="{w + 40:g}" height="{h + 20:g}" fill="url(#pfadeg)"/></mask>'
+        f'<g mask="url(#pfade)"><g transform="translate({x:g} {y:g})">{"".join(layers)}</g></g>'
     )
     return svg, css, w
 
