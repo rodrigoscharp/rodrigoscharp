@@ -1,10 +1,6 @@
-<img src="assets/header.svg" width="100%" alt="Rodrigo Scharp — Java backend engineer, AI, cloud. São Paulo, Brasil. Animated night scene: coding at a desk facing the São Paulo skyline and the Octávio Frias bridge, neon name sign flickering, coffee steaming, city lights twinkling, cars crossing the bridge.">
+<img src="assets/card.svg" width="100%" alt="Rodrigo Scharp in pixel art, arms crossed, next to a character sheet: founder, tech lead, startup builder, taking products from zero to production. Stats: backend 9/10, product 8/10, cloud and AWS 7/10, AI 9/10, coffee maxed out. Traits: founded muno, a food-tech, from zero; leads tech on systems 100k+ people use; builds lock-free engines for fun.">
 
 <img src="assets/projects-dark.svg" width="100%" alt="Editor with projects.json: saude-urgencia — emergency care backend, if it goes down people wait; java 21, spring boot 3, postgres, kafka; in production, 100k+ people rely on it. muno — food-tech built from zero; node, next.js, aws. athena — lock-free matching engine, 100k orders/s, side quest.">
-
-<p align="center">
-  <img src="assets/avatar-pixel.svg" width="320" alt="Rodrigo Scharp in pixel art: my profile photo redrawn pixel by pixel, arms crossed in front of the AWS sign at a conference.">
-</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/rodrigoscharp/"><img src="assets/btn-linkedin.svg" height="48" alt="LinkedIn"></a>&nbsp;
